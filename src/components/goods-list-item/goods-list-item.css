@@ -1,0 +1,68 @@
+.goods-list-item {
+    position: relative;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.goods-list-item__input {
+    display: block;
+    width: 50px;
+    margin: 0 10px 0 auto;
+    background-color: transparent;
+    border: 1px solid rgb(159, 159, 159);
+    outline-color: transparent;
+}
+
+.goods-list-item__label {
+    cursor: pointer;
+}
+
+.goods-list-item__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.fa-trash {
+    color: rgb(156, 154, 154);
+}
+
+.fa-check {
+    color: rgb(41, 41, 35);
+}
+
+.fa-star {
+    display: block;
+    margin-right: 10px;
+    color:rgb(235, 230, 71);
+    visibility: hidden;
+}
+
+.goods-list-item.star .fa-star {
+    visibility: visible;
+}
+
+.goods-list-item.checked .goods-list-item__label, .goods-list-item.checked .goods-list-item__input, .goods-list-item.checked .fa-check {
+    color: rgb(218, 89, 98);
+}
+
+.goods-list-item::before {
+    position: absolute;
+    content: '';
+    background-color: rgb(218, 89, 98);
+    height: 2px;
+    width: 0%;
+    top: 14px;
+    left: 20px;
+    transition: width 500ms;
+}
+
+.goods-list-item.checked::before {
+    width: 75%;
+}

@@ -1,0 +1,16 @@
+.app {
+    margin: 50px auto;
+    max-width: 1000px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.app__inner {
+    margin: 0 auto;
+    max-width: 300px;
+    width: 100%;
+    padding: 17px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(99, 93, 93);
+}

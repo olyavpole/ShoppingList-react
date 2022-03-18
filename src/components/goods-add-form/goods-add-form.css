@@ -1,0 +1,23 @@
+.goods-add-form {
+    margin-bottom: 20px;
+}
+
+.goods-add-form__title {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.add-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input {
+    width: 100px;
+    text-align: center;
+}
+
+.input.red {
+    outline-color: rgb(218, 89, 98);
+}

@@ -1,0 +1,14 @@
+.app-header {
+    margin-bottom: 10px;
+}
+
+.app-header__title {
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.app-header__subtitle {
+    margin-bottom: 5px;
+    font-size: 17px;
+}
